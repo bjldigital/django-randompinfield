@@ -4,7 +4,7 @@ django-randompinfield
 Generates a random pin for your Django model field.
 
 Installation
-----------
+------------
 
 Install via pip:
 
@@ -25,7 +25,7 @@ Add to your installed apps:
 
 
 Usage
-----------
+------
 
 Import ``RandomPinField`` into your ``models.py``.
 
