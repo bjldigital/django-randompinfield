@@ -1,12 +1,12 @@
 from distutils.core import setup
 
-with open('README.md') as f:
+with open('README.rst') as f:
     readme = f.read()
 
 setup(
   name = 'django-randompinfield',
   packages = ['randompinfield'],
-  version = '0.3',
+  version = '0.3.1',
   license="MIT",
   description = 'A django model field that generates a random pin of a desired length',
   long_description=readme,
