@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'django-randompinfield',
   packages = ['randompinfield'], # this must be the same as the name above
-  version = '1.0',
+  version = '0.1',
   description = 'A django model field that generates a random pin of a desired length',
   author = 'Danny Wilson',
   author_email = 'dannywilson32@gmail.com',
