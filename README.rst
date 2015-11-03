@@ -9,6 +9,7 @@ Installation
 Install via pip:
 
 .. code:: bash
+
   $ pip install django-randompinfield
 
 
@@ -29,6 +30,7 @@ Usage
 Import ``RandomPinField`` into your ``models.py``.
 
 .. code:: python
+
   from django.db import models
   from randompinfield import RandomPinField
 
