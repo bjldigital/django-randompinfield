@@ -6,7 +6,7 @@ with open('README.md') as f:
 setup(
   name = 'django-randompinfield',
   packages = ['randompinfield'],
-  version = '0.1',
+  version = '0.2',
   license="MIT",
   description = 'A django model field that generates a random pin of a desired length',
   long_description=readme,
