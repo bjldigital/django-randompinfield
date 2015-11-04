@@ -18,11 +18,6 @@ class RandomPinField(IntegerField):
 
         self.length = length
 
-        kwargs.setdefault('max_length', self.length)
-        if kwargs['max_length'] < self.length:
-            raise ValueError("'max_length' must be equal to or greater than "
-                             "'length'.")
-
         super(RandomPinField, self).__init__(*args, **kwargs)
 
 
