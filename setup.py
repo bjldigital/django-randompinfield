@@ -5,14 +5,14 @@ f = open('README.rst', 'r')
 setup(
   name = 'django-randompinfield',
   packages = ['randompinfield'],
-  version = '0.4.6',
+  version = '0.4.7',
   license="MIT",
   description = 'A django model field that generates a random pin of a desired length',
   long_description=f.read(),
   author = 'Danny Wilson',
   author_email = 'dannywilson32@gmail.com',
   url = 'https://github.com/bjldigital/django-randompinfield/',
-  download_url = 'https://github.com/bjldigital/django-randompinfield/archive/v0.4.6.tar.gz',
+  download_url = 'https://github.com/bjldigital/django-randompinfield/archive/v0.4.7.tar.gz',
   keywords = ['django', 'model', 'field'],
   classifiers = [
     "Framework :: Django",
